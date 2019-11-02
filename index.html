@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A computer science club at Moreno Valley College and Norco College">
+  <meta name="author" content="Software Engineering Club Members">
+  <title>Software Engineering Club</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favsecon.ico">
+</head><!--/head-->
+
+<body>
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/homescreen.JPG)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Welcome to <span> Software Engineering Club</span></h1>
+            <p class="animated fadeInRightBig">Moreno Valley College and Norco College</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#projects">Check us out!</a>
+          </div>
+        </div>
+
+        <div class="item" style="background-image: url(images/slider/languages.JPG)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Join the<span> Software Engineering Club</span></h1>
+            <p class="animated fadeInRightBig">Design and programming are human activities; forget that and all is lost. <br> <a href = "https://en.wikipedia.org/wiki/Bjarne_Stroustrup" >Bjarne Stroustrup  </a></p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">Join now</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#projects"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/SEC logo all white inline for dark bg(edited).png" alt="logo"></h1>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a href="#home">Home</a></li>
+            <li class="scroll"><a href="#projects">Projects</a></li>
+            <li class="scroll"><a href="#about-us">About Us</a></li>
+            <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+            <li class="scroll"><a href="#team">Members</a></li>
+            <li class="scroll"><a href="#calendar">Calendar</a></li>
+            <li class="scroll"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+
+  <section id="projects">
+    <div class="container">
+      <!-- <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"> --> 
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <!-- <h2>Our Current Projects</h2> -->
+            <!-- <p>On-going projects that we are working on in order to learn and develop skills necessary within the current job environment.</p> -->
+          </div>
+        </div>
+      <!-- </div> -->
+      <div class="text-center our-projects">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="project-icon">
+              <i class="fa fa-tint"></i>
+            </div>
+            <div class="project-info">
+              <h3>3D Printing</h3>
+              <p>With the acquistion of a Makerbot Replicator 2X and collaboration of design professors and students on campus,
+                we hope to provide a method of obtaining a physical representation of the 3D models and designs for the game art program and students.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="project-icon">
+              <i class="fa fa-gamepad"></i>
+            </div>
+            <div class="project-info">
+              <h3>Video Game</h3>
+              <p>From game design to game development, we strive to apply the concepts and methods we have
+                learned from our classes to create a game that we can feel proud of.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="project-icon">
+              <i class="fa fa-gear"></i>
+            </div>
+            <div class="project-info">
+              <h3>Robotics</h3>
+              <p>Through the use of simple Arduinos, we learn to run code for our robotic arms and wheels. Along with that, we use Raspberry Pi to continue the development
+              and compound what we learned to create more complex programming.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="project-icon">
+              <i class="fa fa-android"></i>
+            </div>
+            <div class="project-info">
+              <h3>Mobile App</h3>
+              <p>After learning the logic and concepts, creating a mobile app was the next step to applying our knowledge and demonstrating it as software viable for real-world situations.
+              During this development period, we also hope to learn to code efficiently and collaborate with our fellow students for a better understanding.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="project-icon">
+              <i class="fa fa-stack-overflow"></i>
+            </div>
+            <div class="project-info">
+              <h3>Other Development</h3>
+              <p>As we continue to grow and develop, we hope to initiate more projects for students to participate in. This gives them a chance to apply what they have learned in a formal setting.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="project-icon">
+              <i class="fa fa-thumbs-up"></i>
+            </div>
+            <div class="project-info">
+              <h3>Volunteering</h3>
+              <p>We consider this an on-going project, to volunteer for the local community and events pertaining to the Computer Science and Information Systems majors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#projects-->
+
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>About us</h2>
+            <p>Even though our members include graphic designers, game designers, and web developers;
+               we began as programmers and continue to stay true to our roots by challenging ourselves in various programming languages.</p>
+            <p>We strive to encorporate as many disciplines as necessary to complete the projects we work on. From 3D and graphic designers to budding programmers and web developers, the Software Engineering Club continues to provide
+              a place where fellow students within the Computer Science and Information Systems fields can further their knowledge, have the opportunity to teach others, and a means to collaborate with each other. Our time and efforts are always on-going and never stopping.</p>
+            <p>Founded in the Fall of 2014 by a group of Computer Science tutors, the goal of the Software Engineering Club is to expand knowledge in programming and showcase the college's computer science programs.</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <p class="lead">Learning</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="60">60%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">Developing</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="25">25%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <p class="lead">Teaching</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="15">15%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <p class="lead">Having Fun!</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#about-us-->
+
+  <section id="portfolio" style="padding-bottom: 0px;">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" >
+          <h2>Our Club</h2>
+          <p>We are a group of dedicated and skillful computer science students with a passion for programming and enhancing our knowledge of software development. We meet twice a week to share our knowledge and work on real-world <a href="http://er2395851.github.io/web/project">projects</a>.
+            We also volunteer at and participate in regional events, along with providing workshops for the local community.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/roboticsworkshop.JPG" alt="Robotics Workshop">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Robotics Workshop</h3>
+                    <p>Planning, Setup</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#robotics" data-single_url="portfolio-roboticsworkshop.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-robot.JPG" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/cybersecurityopenhouse.jpg" alt="CSUSB Cyber Security Open House">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Cybersecurity Open House</h3>
+                    <p>Discussion, Implementation</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#cyber" data-single_url="portfolio-cybersecurity.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-cyber.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/drc.JPG" alt="DARPA Robotics Convention">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>DARPA Robotics Challenge</h3>
+                    <p>Observing, Learning</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#drc" data-single_url="portfolio-drc.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-darpa.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/smash.jpg" alt="Annual Smash Bros. Tournament">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Video Game Tournaments</h3>
+                    <p>Interacting, Engaging</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#smash" data-single_url="portfolio-smashtourney.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-smash.JPG" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/stemcte.jpg" alt="Promoting STEM through CTE">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>STEM through CTE</h3>
+                    <p>Promoting, Networking</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#stemcte" data-single_url="portfolio-stem.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-stem.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/infosec.JPG" alt="Information Security Workshop">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>InfoSec Spring 2015</h3>
+                    <p>Lecturing, Listening</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#infosec" data-single_url="portfolio-infosec.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-sec.JPG" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/acm.jpg" alt="ACM Programming Contest">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>ACM-ICPC International Contest</h3>
+                    <p>Researching, Networking</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#acm" data-single_url="portfolio-acm.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-acm.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/clubrush.jpg" alt="Club Rush">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Club Rush</h3>
+                    <p>Excitement, Participation</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#club" data-single_url="portfolio-clubrush.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="images/portfolio/portfolio-club.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section><!--/#portfolio-->
+
+  <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Club Cabinet and Leaders</h2>
+          <p>From students to tutors, onward to success from Moreno Valley College. Check out our other <a href="members.html">members and their bios</a>.</p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <a href="members-andy.html"><img class="img-responsive" src="images/team/1.jpg" alt="Andress Silva"></a>
+              </div>
+              <div class="member-info">
+                <h3><a href="members-andy.html">Andress Silva</a></h3>
+                <h4>Club President </h4>
+                <p>Student Tutor. Jack of all Trades, Master of None. Computer Science Major.</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <!-- <li><a class="twitter" href="https://twitter.com/ampersandress"><i class="fa fa-twitter"></i></a></li>/ -->
+                  <li><a class="linkedin" href="https://www.linkedin.com/in/andress-silva-905864b8"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/2.jpg" alt="Tandy Dang">
+              </div>
+              <div class="member-info">
+                <h3>Tandy Dang</h3>
+                <h4>Vice President</h4>
+                <p>Video Game Project Lead. Finder of Spare Parts. Computer Science Major.</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="linkedin" href="https://www.linkedin.com/in/tandy-dang-0352a1133/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="member-image">
+                <a href="members-lorenzo.html"><img class="img-responsive" src="images/team/3.png" alt="Lorenzo Soriano"></a>
+              </div>
+              <div class="member-info">
+                <h3><a href="members-lorenzo.html">Lorenzo Soriano</a></h3>
+                <h4>Treasurer</h4>
+                <p>3D Modeling and Designer. Applied Math Major.</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="linkedin" href="https://www.linkedin.com/in/lorenzo-soriano-889333b6"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/4.jpg" alt="Brandon Bauder">
+              </div>
+              <div class="member-info">
+                <h3>Brandon Bauder</h3>
+                <h4>Secretary</h4>
+                <p>Record Holder. Computer Science Major.</p>
+                <!-- <p>Alvin Chieng - Business/Information System Security Major. Inconvenience = Security.</p> -->
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/5.png" alt="Abraham Cifuentes">
+              </div>
+              <div class="member-info">
+                <h3>Abraham Cifuentes</h3>
+                <h4>ICC Representative</h4>
+                <p>Robotics Project Lead. Computer Science Major.</p>
+                <!-- <p>Cindy Ramirez - Repeatedly fixing what you repeatedly break. Engineering Major.</p> -->
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="linkedin" href="https://www.linkedin.com/in/abraham-cifuentes-799ab6b7/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/6.png" alt="Edmar Ramos">
+              </div>
+              <div class="member-info">
+                <h3>Edmar Ramos</h3>
+                <h4>Programming Lead</h4>
+                <p>Flexiblity and Efficiency is my Creed. Computer Science Major.</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/7.png" alt="Chazz Flower">
+              </div>
+              <div class="member-info">
+                <h3>Chazz Flower</h3>
+                <h4>Video Game Co-Lead</h4>
+                <p>Mr. Awesome. Computer Science Major.</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/8.png" alt="Joe Gonzales">
+              </div>
+              <div class="member-info">
+                <h3>Joe Gonzales</h3>
+                <h4>Advisor</h4>
+                <p>Begger of Projects, First of his Name. Keeper of Schedule.</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="linkedin" href="https://www.linkedin.com/in/joe-gonzales-bb656227"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#team-->
+
+  <section id="twitter" class="parallax">
+    <div>
+      <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="twitter-icon text-center">
+              <i class="fa fa-twitter"></i>
+              <h4>SEC MVC says</h4>
+            </div>
+            <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <p>Check us out! <span>#SEC #MVC</span><a href="https://twitter.com/SECMVC/status/779156217247576064"> http://bit.ly/1qlgwav</a></p>
+                </div>
+                <div class="item">
+                  <p>Look out for our tweets! <span>#SEC #MVC</span><a href="https://twitter.com/SECMVC"> http://bit.ly/1qlgwav</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#twitter-->
+
+  <section id="calendar">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms" style="padding-bottom: 0px;">
+          <h2>News and Upcoming Events</h2>
+          <p>Check up on our upcoming events from time to time to see what is going on. Also feel free to take a look at our <a href ="https://calendar.google.com/calendar/embed?src=mvc.sec%40gmail.com&amp;ctz=America/Los_Angeles">Google Calendar</a> to stay updated.</p>
+        </div>
+      </div>
+    </div>
+  </section><!--/#calendar-->
+  
+  <section id="contact">
+    <div id="google-map" class="wow fadeIn" data-latitude="33.8873" data-longitude="-117.2031" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Contact Us</h2>
+            <p>Interested in joining? Want more information? Our contact information for the club is down below.</p>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            <div class="col-sm-6">
+              <div id="form-messages"></div>
+              <!-- <form id="main-contact-form" name="contact-form" method="POST" action="sendemail.php"> -->
+              <!-- <form method="POST" action="sendemail.php"> -->
+              <form id="ajax-contact" method="POST" action="sendemail.php">
+                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required="required">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Hello, World!" required="required"></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn-submit">Send Now</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-6">
+              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <p>If you wish to contact the campus for any information regarding this club, please contact
+                   Associated Students of Moreno Valley College (ASMVC) for more details.</p>
+                <ul class="address">
+                  <li><i class="fa fa-map-marker"></i> <span> Campus Address:</span> 16130 Lasselle St, Moreno Valley, CA 92551 </li>
+                  <li><i class="fa fa-phone"></i> <span> Campus Phone:</span> (951) 571-6105  </li>
+                  <li><i class="fa fa-envelope"></i> <span> Club Email:</span><a href="mailto:mvc.sec@gmail.com"> mvc.sec@gmail.com</a></li>
+                  <li><i class="fa fa-globe"></i> <span> Club Website:</span> <a href="http://www.software-Engineering.club">Software-Engineering.club</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#contact-->
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/SEC logo all white inline for dark bg.png" alt="Logo"></a>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a class="envelope" href="mailto:mvc.sec@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a class="facebook" href="https://www.facebook.com/SECMVC/"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/SECMVC"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/secmvc/"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="youtube" href="https://www.youtube.com/softwareengineeringclub"><i class="fa fa-youtube-play"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <p>&copy; 2014 - 2017 Software Engineering Club</p>
+          </div>
+		  
+		  <div class="col-sm-4" align="center">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="4KKHRYVHXQ7XA">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+          </div>
+		  
+          <div class="col-sm-4">
+            <p class="pull-right">Edited by <a href="http://net.archbold.k12.oh.us/ahs/web_class/spring_10/chipmunks_allan/images/Alvin1.jpg">Alvin</a> and <a href="http://www.wearysloth.com/Gallery/ActorsM/12406-24646.jpg">Andy</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAyjwd_v2mbpPLF8sCL9-eQrj07wKdxcxY"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
