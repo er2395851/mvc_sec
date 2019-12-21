@@ -22,7 +22,7 @@
         }
 
         // Set the recipient email address.
-        $recipient = "ls91081075@gmail.com";
+        $recipient = "info@gmailhlfdhr.org.com";
 
         // Build the email content.
         $email_content = "Name: $name\n";
