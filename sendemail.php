@@ -22,7 +22,7 @@
         }
 
         // Set the recipient email address.
-        $recipient = "TandyDang@gmail.com ";
+        $recipient = "mvc.sec@gmail.com ";
 
         // Build the email content.
         $email_content = "Name: $name\n";
